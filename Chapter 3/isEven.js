@@ -1,11 +1,11 @@
-const isEven = (a) => {
+const isEven = (num) => {
 
-    if (a === 0) {
+    if (num === 0) {
         return true;
     }
-    if (a === 1) {
+    if (num === 1) {
         return false;
     }
-    return isEven(a-2);
+    return isEven(num-2);
 };
 console.log(isEven(5));
